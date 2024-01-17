@@ -3,17 +3,20 @@
     padding: 0;
 }
 
-body {
+body{
+    transition: 1s;
+}
+
+#root{
+    transition: 1s;
+    overflow-y: hidden;
     display: grid;
-    overflow-x: none;
 }
 
 .header {
     font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 10vw;
-    height: 10vh;
-    margin: 30% auto;
+    font-size: 10vh;
+    margin: 40vh auto;
 }
 
 .site {
